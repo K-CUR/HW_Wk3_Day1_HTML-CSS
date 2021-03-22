@@ -1,0 +1,43 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0
+}
+
+body > header {
+    background-color:cornflowerblue;
+    color: white; 
+}
+
+body > footer {
+    background-color:cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 16px
+    }
+
+.left {
+    text-align: left;
+    display: inline-block
+}
+
+.right {
+    text-align: right;
+    display: inline-block;
+}
+
+nav > ul {
+    list-style: none; 
+}
+
+nav > ul > li {
+    display: inline; 
+}
+
+nav > ul > li > a {
+    color: white;
+    padding: 5px
+}
+
+#link {
+    color: black;
+}
